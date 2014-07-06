@@ -8,22 +8,9 @@
  * enginnering and understand the risk of this software.
  * I'm not accountable for the damage or detriment caused by using this software.
  */
-#include <avr/pgmspace.h>
-
-#include <avrpins.h>
-#include <max3421e.h>
-#include <usbhost.h>
-#include <usb_ch9.h>
 #include <Usb.h>
 #include <usbhub.h>
-#include <avr/pgmspace.h>
-#include <address.h>
 #include <hidboot.h>
-
-#include <printhex.h>
-#include <message.h>
-#include <hexdump.h>
-#include <parsetools.h>
 
 class HIDKeyboardParser : public KeyboardReportParser
 {
